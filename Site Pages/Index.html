@@ -47,49 +47,40 @@
 			font-family: 'Montserrat', sans-serif;
 		}
 
+		h2 {
+			margin: 20px auto;
+			text-align: center;
+			background-color: #333;
+			padding: 10px 0;
+			color: white;
+			width: 100%;
+			font-family: 'Montserrat', sans-serif;
+		}
+
 		main {
 			background-image: url('Library.jpg');
 			background-size: cover;
 			background-position: center;
 			height: calc(100vh - 140px);
 			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-around;
+			justify-content: center;
 			align-items: center;
-			padding: 20px;
 		}
 
-		.box {
+		.container {
 			background-color: rgba(0, 0, 0, 0.8);
 			padding: 30px;
-			max-width: 300px;
-			width: 100%;
-			text-align: center;
-			margin-bottom: 20px;
-			box-sizing: border-box;
-			font-family: 'Montserrat', sans-serif;
-		}
-
-		.box img {
+			max-width: 800px;
 			width: 80%;
-			margin-bottom: 10px;
-			display: block;
-			margin: 0 auto;
-		}
-
-		.box h3 {
-			color: white;
-			margin-top: 0;
-			font-size: 1.5em;
-			margin-bottom: 10px;
 			font-family: 'Montserrat', sans-serif;
 		}
 
-		.box p {
+		.container p {
 			color: white;
-			margin: 0;
-			font-size: 1em;
-			font-family: 'Montserrat', sans-serif;
+		}
+
+		p {
+			text-align: justify;
 		}
 	</style>
 </head>
@@ -108,26 +99,10 @@
 	</nav>
 
 	<main>
-		<div class="box">
-			<img src="Tim Cook.jpg" alt="Tim Cook">
-			<h3>Book Title 1</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nibh tellus.</p>
+		<div class="container">
+			<p>Welcome to Good Reads! I have curated a list of recent books and articles that I have read over the past few years, along with a few documentaries that I have watched.</p>
 		</div>
+	</main>
 
-		<div class="box">
-			<img src="book2.jpg" alt="Book 2">
-			<h3>Book Title 2</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nibh tellus</p>
-        </div>
-
-        <div class="box">
-             <img src="book3.jpg" alt="Book 1">
-            <h3>Book Title 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nibh tellus.</p>
-        </div>
-        
-        <div class="box">
-             <img src="book4.jpg" alt="Book 2">
-             <h3>Book Title 4</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nibh tellus</p>
-        </div>
+</body>
+</html>
