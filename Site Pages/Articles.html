@@ -12,122 +12,111 @@
 			font-family: 'Montserrat', sans-serif;
 		}
 
-		nav li {
-			float: left;
-		}
+	nav li {
+		float: left;
+	}
 
-		nav a {
-			display: block;
-			color: white;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-			font-family: 'Montserrat', sans-serif;
-		}
+	nav a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+	}
 
-		nav a:hover {
-			background-color: #111;
-		}
+	nav a:hover {
+		background-color: #111;
+	}
 
-		header {
-			background-color: #333;
-			height: 70px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin-bottom: 0;
-			font-family: 'Montserrat', sans-serif;
-		}
+	header {
+		background-color: #333;
+		height: 70px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 0;
+		font-family: 'Montserrat', sans-serif;
+	}
 
-		h1 {
-			margin: 0;
-			color: white;
-			text-align: center;
-			font-size: 2em;
-			font-family: 'Montserrat', sans-serif;
-		}
+	h1 {
+		margin: 0;
+		color: white;
+		text-align: center;
+		font-size: 2em;
+		font-family: 'Montserrat', sans-serif;
+	}
 
-		main {
-			background-image: url('Library.jpg');
-			background-size: cover;
-			background-position: center;
-			height: calc(100vh - 140px);
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-around;
-			align-items: center;
-			padding: 20px;
-		}
+	h2 {
+		margin: 20px auto;
+		text-align: center;
+		background-color: #333;
+		padding: 10px 0;
+		color: white;
+		width: 100%;
+		font-family: 'Montserrat', sans-serif;
+	}
 
-		.box {
-			background-color: rgba(0, 0, 0, 0.8);
-			padding: 30px;
-			max-width: 300px;
-			width: 100%;
-			text-align: center;
-			margin-bottom: 20px;
-			box-sizing: border-box;
-			font-family: 'Montserrat', sans-serif;
-		}
+	main {
+		background-image: url('Library.jpg');
+		background-size: cover;
+		background-position: center;
+		height: calc(100vh - 140px);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
-		.box img {
-			width: 80%;
-			margin-bottom: 10px;
-			display: block;
-			margin: 0 auto;
-		}
+	.container {
+		background-color: rgba(0, 0, 0, 0.8);
+		padding: 30px;
+		max-width: 800px;
+		width: 80%;
+		font-family: 'Montserrat', sans-serif;
+		margin: 20px;
+		border-radius: 10px;
+	}
 
-		.box h3 {
-			color: white;
-			margin-top: 0;
-			font-size: 1.5em;
-			margin-bottom: 10px;
-			font-family: 'Montserrat', sans-serif;
-		}
+	.container p {
+		color: white;
+		margin: 0;
+		padding: 10px 0;
+		font-size: 1.2em;
+		line-height: 1.5;
+	}
 
-		.box p {
-			color: white;
-			margin: 0;
-			font-size: 1em;
-			font-family: 'Montserrat', sans-serif;
-		}
-	</style>
+	p {
+		text-align: justify;
+	}
+</style>
 </head>
 <body>
 	<header>
 		<h1>Recent Read Recommendations</h1>
 	</header>
 
-	<nav>
+<nav>
+	<ul>
+		<li><a href="Index.html">Home</a></li>
+		<li><a href="Books.html">Books</a></li>
+		<li><a href="Articles.html">Articles</a></li>
+		<li><a href="Documentaries.html">Documentaries</a></li>
+	</ul>
+</nav>
+
+<main>
+	<div class="container">
+		<p>Welcome to Good Reads! I have curated a list of recent books and articles that I have read over the past few years, along with a few documentaries that I have watched.</p>
+	</div>
+	
+	<div class="container">
+		<p>Here are some of my recent favorite books:</p>
 		<ul>
-			<li><a href="Index.html">Home</a></li>
-			<li><a href="Books.html">Books</a></li>
-			<li><a href="Articles.html">Articles</a></li>
-			<li><a href="Documentaries.html">Documentaries</a></li>
+			<li>The Testaments by Margaret Atwood</li>
+			<li>The Dutch House by Ann Patchett</li>
+			<li>Circe by Madeline Miller</li>
 		</ul>
-	</nav>
-
-	<main>
-		<div class="box">
-			<img src="Tim Cook.jpg" alt="Tim Cook">
-			<h3>Book Title 1</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nibh tellus.</p>
-		</div>
-
-		<div class="box">
-			<img src="book2.jpg" alt="Book 2">
-			<h3>Book Title 2</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nibh tellus</p>
-        </div>
-
-        <div class="box">
-             <img src="book3.jpg" alt="Book 1">
-            <h3>Book Title 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nibh tellus.</p>
-        </div>
-        
-        <div class="box">
-             <img src="book4.jpg" alt="Book 2">
-             <h3>Book Title 4</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nibh tellus</p>
-        </div>
+	</div>
+	
+	<div
