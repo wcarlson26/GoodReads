@@ -12,111 +12,106 @@
 			font-family: 'Montserrat', sans-serif;
 		}
 
-	nav li {
-		float: left;
-	}
+		nav li {
+			float: left;
+		}
 
-	nav a {
-		display: block;
-		color: white;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-		font-family: 'Montserrat', sans-serif;
-	}
+		nav a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-family: 'Montserrat', sans-serif;
+		}
 
-	nav a:hover {
-		background-color: #111;
-	}
+		nav a:hover {
+			background-color: #111;
+		}
 
-	header {
-		background-color: #333;
-		height: 70px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-bottom: 0;
-		font-family: 'Montserrat', sans-serif;
-	}
+		header {
+			background-color: #333;
+			height: 70px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 0;
+			font-family: 'Montserrat', sans-serif;
+		}
 
-	h1 {
-		margin: 0;
-		color: white;
-		text-align: center;
-		font-size: 2em;
-		font-family: 'Montserrat', sans-serif;
-	}
+		h1 {
+			margin: 0;
+			color: white;
+			text-align: center;
+			font-size: 2em;
+			font-family: 'Montserrat', sans-serif;
+		}
 
-	h2 {
-		margin: 20px auto;
-		text-align: center;
-		background-color: #333;
-		padding: 10px 0;
-		color: white;
-		width: 100%;
-		font-family: 'Montserrat', sans-serif;
-	}
+		h2 {
+			margin: 20px auto;
+			text-align: center;
+			background-color: #333;
+			padding: 10px 0;
+			color: white;
+			width: 100%;
+			font-family: 'Montserrat', sans-serif;
+		}
 
-	main {
-		background-image: url('Library.jpg');
-		background-size: cover;
-		background-position: center;
-		height: calc(100vh - 140px);
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
+		main {
+			background-image: url('Newspapers.jpg');
+			background-size: cover;
+			background-position: center;
+			height: calc(100vh - 140px);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 
-	.container {
-		background-color: rgba(0, 0, 0, 0.8);
-		padding: 30px;
-		max-width: 800px;
-		width: 80%;
-		font-family: 'Montserrat', sans-serif;
-		margin: 20px;
-		border-radius: 10px;
-	}
+		.container {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
 
-	.container p {
-		color: white;
-		margin: 0;
-		padding: 10px 0;
-		font-size: 1.2em;
-		line-height: 1.5;
-	}
-
-	p {
-		text-align: justify;
-	}
-</style>
+		.box {
+			width: 30%;
+			padding: 80px;
+			background-color: rgba(0, 0, 0, 0.5);
+			color: #fff;
+			opacity: 1.2;
+			box-sizing: border-box;
+		}
+	</style>
 </head>
 <body>
 	<header>
 		<h1>Recent Read Recommendations</h1>
 	</header>
 
-<nav>
-	<ul>
-		<li><a href="Index.html">Home</a></li>
-		<li><a href="Books.html">Books</a></li>
-		<li><a href="Articles.html">Articles</a></li>
-		<li><a href="Documentaries.html">Documentaries</a></li>
-	</ul>
-</nav>
-
-<main>
-	<div class="container">
-		<p>Welcome to Good Reads! I have curated a list of recent books and articles that I have read over the past few years, along with a few documentaries that I have watched.</p>
-	</div>
-	
-	<div class="container">
-		<p>Here are some of my recent favorite books:</p>
+	<nav>
 		<ul>
-			<li>The Testaments by Margaret Atwood</li>
-			<li>The Dutch House by Ann Patchett</li>
-			<li>Circe by Madeline Miller</li>
+			<li><a href="Index.html">Home</a></li>
+			<li><a href="Books.html">Books</a></li>
+			<li><a href="Articles.html">Articles</a></li>
+			<li><a href="Documentaries.html">Documentaries</a></li>
 		</ul>
-	</div>
-	
-	<div
+	</nav>
+
+	<main>
+		<div class="container">
+			<div class="box">
+				<h2>Gang Gang</h2>
+				<p>Drip.</p>
+			</div>
+			<div class="box">
+				<h2>Box 2</h2>
+				<p>This is the second opaque text box.</p>
+			</div>
+			<div class="box">
+				<h2>Box 3</h2>
+				<p>This is the third opaque text box.</p>
+			</div>
+		</div>
+
+</body>
+</html>
