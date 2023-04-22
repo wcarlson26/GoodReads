@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			background-color: #333;
+			overflow: hidden;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		nav li {
+			float: left;
+		}
+
+		nav a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		nav a:hover {
+			background-color: #111;
+		}
+
+		header {
+			background-color: #333;
+			height: 70px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 0;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		h1 {
+			margin: 0;
+			color: white;
+			text-align: center;
+			font-size: 2em;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		h2 {
+			margin: 20px auto;
+			text-align: center;
+			background-color: #333;
+			padding: 10px 0;
+			color: white;
+			width: 100%;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		main {
+			background-image: url('Movies.jpg');
+			background-size: cover;
+			background-position: center;
+			height: calc(100vh - 140px);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.container {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.box {
+			width: 30%;
+			padding: 80px;
+			background-color: rgba(0, 0, 0, 0.5);
+			color: #fff;
+			opacity: 1.2;
+			box-sizing: border-box;
+		}
+
+        a {
+    color: white;
+    text-decoration: none; /* optional - removes underline from link */
+  }
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Recent Read Recommendations</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="Index.html">Home</a></li>
+			<li><a href="Books.html">Books</a></li>
+			<li><a href="Articles.html">Articles</a></li>
+			<li><a href="Documentaries.html">Documentaries</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<div class="container">
+			<div class="box">
+				<h2><a href="https://www.amazon.com/Inside-Job-Matt-Damon/dp/B004NOCCEG">Inside Job</a></h2>
+				<p>A sobering overview of the Great Financial Crisis, with an impressive roster of interviewees.</p>
+			</div>
+			<div class="box">
+				<h2><a href="https://www.espn.com/espnplus/catalog/d6cf250d-231d-483d-a68c-2be8439e5716/the-best-that-never-was">The Best That Never Was</a></h2>
+				<p>How good was Marcus Dupree? The team would lateral the ball back 50 yards on a kickoff just to get it in his hands.</p>
+			</div>
+			<div class="box">
+				<h2><a href="https://video.vice.com/hu/video/vice-special-report-a-house-divided-hbo/5852ec646a4848f2381e5454">A House Divided</a></h2>
+				<p>Made after Trump was elected, this documentary discusess political dysfunction in Washington during the Obama years.</p>
+			</div>
+		</div>
+
+</body>
+</html>
+

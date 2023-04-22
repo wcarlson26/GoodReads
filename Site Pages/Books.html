@@ -47,18 +47,45 @@
 			font-family: 'Montserrat', sans-serif;
 		}
 
+		h2 {
+			margin: 20px auto;
+			text-align: center;
+			background-color: #333;
+			padding: 10px 0;
+			color: white;
+			width: 100%;
+			font-family: 'Montserrat', sans-serif;
+		}
+
 		main {
-			background-image: url('Library.jpg');
+			background-image: url('Books.jpg');
 			background-size: cover;
 			background-position: center;
 			height: calc(100vh - 140px);
 			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-around;
+			justify-content: center;
 			align-items: center;
-			padding: 20px;
 		}
 
+		.container {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.box {
+			width: 30%;
+			padding: 80px;
+			background-color: rgba(0, 0, 0, 0.5);
+			color: #fff;
+			opacity: 1.2;
+			box-sizing: border-box;
+		}
+
+  a {
+    color: white;
+    text-decoration: none; /* optional - removes underline from link */
+  }
 	</style>
 </head>
 <body>
@@ -67,23 +94,29 @@
 	</header>
 
 	<nav>
-			<ul>
-				<li><a href="Index.html">Home</a></li>
-				<li><a href="Books.html">Books</a></li>
-				<li><a href="Articles.html">Articles</a></li>
-				<li><a href="Documentaries.html">Documentaries</a></li>
-			</ul>
-		</nav>
+		<ul>
+			<li><a href="Index.html">Home</a></li>
+			<li><a href="Books.html">Books</a></li>
+			<li><a href="Articles.html">Articles</a></li>
+			<li><a href="Documentaries.html">Documentaries</a></li>
+		</ul>
+	</nav>
 
+	<main>
+		<div class="container">
+			<div class="box">
+				<h2><a href="https://www.amazon.com/Chip-War-Worlds-Critical-Technology/dp/1982172002">Chip War</a></h2>
+				<p>An exceptional and timely book covering the ascent of the semiconductor industry, its significance in the economy, and its influence on geopolitics.</p>
+			</div>
+			<div class="box">
+				<h2><a href="https://www.amazon.com/Nineties-Book-Chuck-Klosterman/dp/0735217955">The Nineties</a></h2>
+				<p>Klosterman covers the zeitgeist of the 1990s: a carefree era that simultaneously feels like yesterday but also the distant past.</p>
+			</div>
+			<div class="box">
+				<h2><a href="https://www.amazon.com/Big-Picture-Fight-Future-Movies/dp/132859274X/ref=asc_df_132859274X/?tag=hyprod-20&linkCode=df0&hvadid=312106851030&hvpos=&hvnetw=g&hvrand=11601119704624399087&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9007532&hvtargid=pla-634576382781&psc=1">The Big Picture</a></h2>
+				<p>The shift of Hollywood's focus from producing complex and uncertain mid-budget films to prioritizing reliable financial blockbusters, often in the form of franchise tentpoles.</p>
+			</div>
+		</div>
 
-<img src='https://images.unsplash.com/photo-1554079501-a254f876fc77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNDY0NTMwOQ&ixlib=rb-1.2.1&q=80&w=400' width="400" height="300" alt=''>
-
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo in, impedit quod dicta est facilis consectetur laborum eius vitae voluptate asperiores, vel ipsa laboriosam odit esse beatae nesciunt architecto deserunt.</p>
-
-<img src='https://images.unsplash.com/photo-1581888227599-779811939961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNDY0NTMwOQ&ixlib=rb-1.2.1&q=80&w=400' width="400" height="300" alt=''>
-
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae nisi quidem sint eius quos corrupti, perferendis unde at. Ipsam saepe error, quos iste enim temporibus voluptatum ea harum inventore neque!</p>
-
-<img src='https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNDY0NTMwOQ&ixlib=rb-1.2.1&q=80&w=400' width="400" height="300" alt=''>
-
-<p>Aut dolor aspernatur cupiditate repudiandae eos accusantium inventore molestiae sequi earum perspiciatis qui odio minima magni, iste fugit reiciendis atque tenetur quaerat itaque incidunt, consequuntur esse. Accusantium doloribus odit debitis.</p>
+</body>
+</html>
